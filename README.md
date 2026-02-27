@@ -10,7 +10,8 @@ A command-line tool written in Python to extract hidden metadata (EXIF) from ima
 - Binary Filtering: Skips unreadable binary data for a clean terminal output.
 
 **How to Install**
-1. Clone this repository:
+
+Clone this repository:
    ```bash
    git clone [https://github.com/pocketmarzo/photo_sniffer.git](https://github.com/pocketmarzo/photo_sniffer.git)
 
