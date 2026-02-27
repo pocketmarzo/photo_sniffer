@@ -1,23 +1,17 @@
+# OSINT Photo Sniffer
 
-### OSINT Photo Sniffer
+A standalone command-line tool to extract hidden metadata (EXIF) from image files. It supports standard formats like JPEG and modern iPhone formats (HEIC).
 
-A command-line tool written in Python to extract hidden metadata (EXIF) from image files. It supports standard formats like JPEG and modern iPhone formats (HEIC).
+## Features
 
-**Features**
-- HEIC Support: Seamlessly opens iPhone photos using `pillow-heif`.
-- GPS Extraction: Automatically finds GPS coordinates in the file.
-- Direct Map Link: Generates a clickable Google Maps link for the exact location.
-- Binary Filtering: Skips unreadable binary data for a clean terminal output.
+- **HEIC Support**: Seamlessly opens iPhone photos using the pillow-heif library.
+- **GPS Extraction**: Automatically identifies and decodes GPS coordinates.
+- **Direct Map Link**: Generates a clickable Google Maps link for the exact location.
+- **Binary Filtering**: Skips unreadable binary data for a clean terminal output.
 
-**How to Install**
+## Installation
 
-Clone this repository:
-   ```bash
-   git clone [https://github.com/pocketmarzo/photo_sniffer.git](https://github.com/pocketmarzo/photo_sniffer.git)
+1. Clone this repository:
 
-**How to Use**
-
-Run the script through your terminal:
-   ```bash
-   python sniffer.py your_image_name.jpg
-
+```bash
+git clone [https://github.com/pocketmarzo/photo-sniffer.git](https://github.com/pocketmarzo/photo-sniffer.git)
